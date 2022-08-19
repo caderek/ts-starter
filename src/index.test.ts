@@ -1,9 +1,10 @@
 import { suite, assert } from "./util/test.js";
+import hello from "./index.js";
 
 const test = suite("Index");
 
 test("Works", () => {
-  assert.equal(1, 1);
+  assert.equal(hello, "Hello World!");
 });
 
 test.run();
