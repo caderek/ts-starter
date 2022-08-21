@@ -2,6 +2,7 @@ node_modules
 data
 temp
 dist
+coverage
 .dev
 *.temp
 *.temp.*
